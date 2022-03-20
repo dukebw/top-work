@@ -1,0 +1,12 @@
+* {
+  font-family: "Open Sans", Montserrat, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: #ffaaaa;
+  color: #ff4444;
+}
