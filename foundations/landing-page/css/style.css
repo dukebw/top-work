@@ -1,0 +1,39 @@
+/* General declaration */
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+nav {
+  background-color: #1f2937;
+  padding: 24px 10vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Specific declarations */
+
+ul.header-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 24px;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
