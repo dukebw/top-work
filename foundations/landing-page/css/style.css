@@ -1,16 +1,10 @@
 /* General declaration */
-a {
-  color: #e5e7eb;
-  font-size: 18px;
-  text-decoration: none;
+html {
+  font-family: Roboto, sans-serif;
 }
 
 body {
   margin: 0;
-}
-
-html {
-  font-family: Roboto, sans-serif;
 }
 
 nav {
@@ -19,6 +13,12 @@ nav {
 
   display: flex;
   justify-content: space-between;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 /* Specific declarations */
