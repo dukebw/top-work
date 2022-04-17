@@ -21,7 +21,31 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  width: 96px;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* Specific declarations */
+
+.main {
+  background-color: #1f2937;
+  padding: 64px 10vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 32px;
+}
 
 ul.header-links {
   list-style: none;
@@ -33,7 +57,35 @@ ul.header-links {
 }
 
 .header-logo {
-  color: #f9faf8;
   font-size: 24px;
   font-weight: bold;
+}
+
+.sign-up-blurb {
+  color: #e5e7eb;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-blurb h1 {
+  font-weight: extra-bold;
+  font-size: 48px;
+  margin: 0;
+}
+
+/* NOTE(brendan): shared font colours */
+button,
+.header-logo,
+.sign-up-blurb h1 {
+  color: #f9faf8;
+}
+
+.main > div {
+  max-width: 40vw;
+}
+
+.img-container {
+  margin: auto;
 }
