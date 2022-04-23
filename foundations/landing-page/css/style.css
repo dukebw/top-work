@@ -137,12 +137,14 @@ ul.header-links {
   font-size: 36px;
   font-style: italic;
   font-weight: 100;
+  margin: 16px;
 }
 
 .author {
   color: #1f2937;
   font-size: 24px;
   font-weight: 800;
+  margin: 16px;
   text-align: right;
 }
 
