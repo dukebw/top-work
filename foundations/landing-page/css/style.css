@@ -5,6 +5,9 @@ html {
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 nav {
@@ -149,9 +152,10 @@ ul.header-links {
 }
 
 .action-section {
-  margin: auto;
+  margin: 0 auto;
   padding: 64px 10vw;
   width: min(800px, 80vw);
+  flex: 1 1 auto;
 }
 
 .call-to-action {
